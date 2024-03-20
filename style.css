@@ -37,3 +37,19 @@
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+.main {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.content img {
+  width: 350px;
+  height: 300px;
+}
