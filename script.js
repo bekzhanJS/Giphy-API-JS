@@ -1,4 +1,5 @@
 const btn = document.getElementById("btn");
+const input = document.getElementById("input");
 
 let generate = () => {
   const API = "e8sda3cothhKwTUjeRf2nRjMJ1slnoS5";
@@ -30,3 +31,8 @@ let generate = () => {
 
 btn.addEventListener("click", generate);
 window.addEventListener("load", generate);
+input.addEventListener("keypress", (event) => {
+  if (event.key == "Enter") {
+    btn.click();
+  }
+});
