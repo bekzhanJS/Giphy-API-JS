@@ -6,7 +6,7 @@ let generate = () => {
   const input = document.getElementById("input").value;
   const show = document.getElementById("show");
 
-  let URL = `https://api.giphy.com/v1/gifs/search?api_key=${API}&limit=20&q=${input}$limit=20&rating=g`;
+  let URL = `https://api.giphy.com/v1/gifs/search?api_key=${API}&q=${input}&limit=20&rating=g`;
 
   fetch(URL)
     .then((response) => response.json())

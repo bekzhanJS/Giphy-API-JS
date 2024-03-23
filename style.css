@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
